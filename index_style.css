@@ -1,0 +1,146 @@
+
+
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'segoe ui light';
+}
+
+body
+{
+    background-color: #2a2a72;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.user-form
+{
+    width: 100%;
+    max-width: 700px;
+}
+
+.user-form input
+{
+    width: 100%;
+    display: block;
+    padding:15px 20px;
+    background-color: #4c2885;
+    color: #fff;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05)    , 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.user-form input::placeholder
+{
+    color: #bbb;
+}
+
+.container
+{
+    width: 700px;
+}
+.card
+{
+    max-width: 700px;
+    background-color: #4c2885;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05)    , 0 15px 40px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    display: flex;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.avater 
+{
+    width: 150px;
+    height: 150px;
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.card .info
+{
+    margin-left: 2rem;
+    color: #eee;
+}
+
+ .info h1 
+{
+    padding-bottom: 15px;
+}
+
+.card .info ul
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    list-style: none;
+
+}
+
+.info ul li strong 
+{
+    margin-left: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.info .reposes
+{
+    margin-top: 25px;
+}
+.info .repo
+{
+    text-decoration: none;
+    color: #fff;
+    background-color: #212a72;
+    padding: 4px 8px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+
+}
+
+
+
+
+
+@media (max-width : 500px)
+{
+    .card
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-form
+    {
+        max-width: 400px;
+    }
+}

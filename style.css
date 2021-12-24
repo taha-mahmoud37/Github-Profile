@@ -1,0 +1,28 @@
+
+p {
+    background: rgb(20, 23, 26);
+    background: transparent;
+    border-radius: 10px;
+    background-color:rgb(20, 23, 26) ;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+
+    background-image: url();
+    background-repeat: no-repeat;
+
+    padding-left: 30px;
+    background-position: center left;
+    border-right: 1px solid rgb(20, 23, 26);
+}
+
+ template جديدة وعدلت فيها فا ممكن تبص عليها لما يكون عندك وقت فاضي ان امكن.
+
+
+ QPushButton:hover {
+     background-color: #1DA1F2;
+     transition: all .33s;
+ }
